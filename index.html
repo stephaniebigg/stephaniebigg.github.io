@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+    .w3-round{
+        color:blueviolet;
+    }
+    fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+        height: 100px;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <br>
+      
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+      <br>
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Me</a> 
+     <br>
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">My Design Experience</a> 
+      <br>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact Me</a> 
+      <br>
+      <img src="rose.png" style="width:100%"  alt="rose">
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+    
+  <span>Stephanie Bigg</span>
+</header>
+<br>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:40px" id="showcase">
+    <h1 class="w3-jumbo"><b>Stephanie Bigg's Website</b></h1>
+      <br>
+      <br>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Welcome.</b></h1>
+    <hr   class="w3-round">
+      <p>Hey, I'm Stephanie. Thanks for checking out my website!</p>
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      
+      <img src="STEPHANIE%20BIGG.jpg" style="width:100%" onclick="onClick(this)" alt="Accepting the President's Excellence Award from Dr. Ron Common at Sault College on March 3rd, 2020.">
+      <img src="friends.jpg" style="width:100%" onclick="onClick(this)" alt="My friends and I night skiing at Searchmont Resort.">
+    </div>
+
+    <div class="w3-half">
+      
+      <img src="lover.jpg" style="width:100%" onclick="onClick(this)" alt="Me and my boyfriend, Tanner, at Ripley's Aquarium in Toronto.">
+      <img src="family.jpg" style="width:100%" onclick="onClick(this)" alt="My family and I at a wedding.">
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>About Me.</b></h1>
+    <hr  class="w3-round">
+    <p>I’m currently an Office Administration—Executive student at Sault College. I’m a friendly, outgoing person who loves being around people. I’m taking this program because I have goals for the future, and this was one of them! Now that I’m tackling this goal, and working towards graduation, I have a few more goals. First thing, I’m going to secure full-time employment as an administrative assistant. I think I would like to try working in a law office, or a similar environment, as I have some previous education in the Law and Justice program at Algoma University. After that, I am going to pay off my student loans and start saving for a house! I have some big goals for the future, and they motivate me to work hard each and every day. 
+<p>I am also a Guest Services Agent at Delta Hotel by Marriott Sault Ste. Marie Waterfront. I love my job and the opportunities I have to meet new people from all over the world every time I work. This job has helped me to gain experience and expand my administrative abilities. I am proficient in the Microsoft Suite and have excellent computing skills. My educational experience has also greatly helped me improve my computer abilities. When I began this program, I was typing at a speed of 30 w.p.m. and when I was tested at the end of my first semester I was typing at 45 w.p.m. Since then, I have improved more but have not tested my abilities again, yet. However, I can now type full sentences without looking at the keyboard which is an ability I have always wanted to have. 
+<p>I am also the Peer Tutor for my program at Sault College, and I love having the opportunity to help my classmates. I am very proud to have been selected by my professors to fulfill this role. During my time in the Office Administration—Executive program at Sault College, I received the President’s Excellence Award, as well as the Sault Ste. Marie Police Service Academic Excellence Award (Office Administration). I was honored to receive both award, as recognition for all the hard work I put into maintaining a 4.0 G.P.A. 
+<p>This is only the beginning, and I know that if I continue to work hard and stay motivated, I will have great things coming in my future!
+</p>
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>My Design Experience.</b></h1>
+    <hr  class="w3-round">
+    <p>I had a great time designing this website! I was very excited when I was given the project to design my own website for school, because my boyfriend, Tanner, is a computer scientist and designs websites. I have helped him with the visual aspect of his websites many times before. I immediately asked him to help me with it. We picked a free website template w3schools.com which is an amazing website that helps with all parts of website creation. Once I found a template I liked, he downloaded the code and helped me edit it. We changed almost everything about the template apart from the functional layout, which is why I chose this template. I used a colour picker (pictured below) to choose a custom colour for my website, and went with a dark purple because purple is my favourite colour. I learned a lot about how coding works during this experience and would absolutely recommend building a website this way. The only con I have is that you need someone with coding experience to help you when things get tricky, if you are a beginner. We also used code to embed my twitter and linkedin icons, and were able to change the colour of the icons to be the same colour used throughout the website. It was all very exciting. <p> Another interesting thing I did for the website is creating the rose graphic that is on the sidebar. I took a black and white photo from Google and used photopea.com to erase the background, and change the black design to white (pictured below). It was more difficult than you’d think and may have taken nearly the same amount of time as designing the rest of the website, but it was totally worth it.  To create the URL, we used GitHub to host the website, which was free. Overall, I thoroughly enjoyed creating this project and hope you enjoy it too!
+    </p>
+  </div>
+<br>
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      
+      <img src="color.JPG" style="width:100%">
+      
+    </div>
+
+    <div class="w3-third">
+      
+      <img src="code.JPG" style="width:100%" >
+    
+    </div>
+      <div class="w3-third">
+      
+      <img src="art.JPG" style="width:100%" >
+      
+    </div>
+  </div>
+
+  
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact Me.</b></h1>
+    <hr  class="w3-round">
+     
+    <p>Feel free to reach out to me! Just fill out the form and say hi :) </p>
+    <form action="https://formspree.io/stephanie.bigg@student.saultcollege.ca" method="post">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+        <br>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+    <br>
+ <center><a href="https://twitter.com/BiggStephanie" class="fa fa-twitter"style="padding: 20px;
+          font-size: 40px;
+          width: 80px;
+          text-align: center;
+          border-radius: 20px;
+          background-color:#390031;
+          text-decoration: none;
+          margin: 5px 50px"></a>
+        <a href="https://www.linkedin.com/in/stephanie-bigg/" class="fa fa-linkedin" style="padding: 20px;
+          font-size: 40px;
+          width: 80px;
+          background-color:#390031;
+          text-align: center;
+          border-radius: 20px;
+          text-decoration: none;
+          margin: 5px 50px"></a></center>
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:50px;padding-right:58px"><p class="w3-right"><a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity"></a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
